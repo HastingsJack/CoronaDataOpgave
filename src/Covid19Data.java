@@ -18,6 +18,14 @@ public class Covid19Data {
         this.dato = dato;
     }
 
+    public String getRegion() {
+        return this.region;
+    }
+
+    public String getAldersgruppe() {
+        return this.aldersgruppe;
+    }
+
     @Override
     public String toString() {
         return "REGION: " + this.region + " ALDERSGRUPPE: " + this.aldersgruppe + " BEKRÆFTEDETILFÆDEIALT: " + this.bekræftedeTilfældeIAlt +
